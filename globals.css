@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--ink:#17202a;--muted:#66717d;--brand:#1f5f68;--brand-soft:#e7f2f1;--sand:#f4f1eb}
+html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:#fff;font-family:Arial,Helvetica,sans-serif;text-rendering:optimizeLegibility}::selection{background:var(--brand);color:#fff}a{color:inherit;text-decoration:none}.container-gip{width:min(1180px,calc(100% - 40px));margin-inline:auto}@media(max-width:640px){.container-gip{width:min(100% - 28px,1180px)}}
